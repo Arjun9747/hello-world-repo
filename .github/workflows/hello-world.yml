@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: test
     environment:
-      name: test  # 👈 Create this environment in GitHub settings and set manual approval
+      name: dev  # 👈 Create this environment in GitHub settings and set manual approval
     steps:
       - name: Deploy to Production
         run: echo "Deploying to production..."
